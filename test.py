@@ -3,7 +3,8 @@ from PyQt5.QtWidgets import *
 
 def funkzia():
     secret.setText('Секрет!')
-
+def passs():
+    pass
 app = QApplication([])
 okno = QWidget()
 okno.setWindowTitle('Моё второе приложение')
