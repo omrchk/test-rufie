@@ -26,7 +26,7 @@ class MainWin(QWidget):
         self.b_next.clicked.connect(self.funkzia)
     def funkzia(self):
         self.hide()
-        Win2 = SecWin()
+        self.Win2 = SecWin()
     
 app = QApplication([])
 okno = MainWin()
