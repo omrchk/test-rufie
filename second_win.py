@@ -111,7 +111,7 @@ class SecWin(QWidget):
                               self.linedit3.text(),
                               self.linedit4.text(),
                               self.linedit5.text())
-        self.Win3 = FinWin()
+        self.Win3 = FinWin(self.exp)
 class Expiriment():
     def __init__(self, name, age, test1, test2, test3):
         self.name = name
@@ -119,5 +119,4 @@ class Expiriment():
         self.test1 = test1
         self.test2 = test2
         self.test3 = test3
-
 
